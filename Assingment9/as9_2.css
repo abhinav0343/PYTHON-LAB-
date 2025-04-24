@@ -1,0 +1,103 @@
+.svnit-logo{
+    width : 90px;
+    margin : 0px 0px 15px 4px ;
+}
+.hinditext{
+    width :570px;
+    margin-left: 350px;
+}
+.svsir{
+    width :90px;
+    margin-left: 350px;
+}
+.upperthings{
+    margin-left : 8px;
+    display : flex;
+    gap : 15px;
+    border : 1px solid white;
+    background-color : rgb(30,140,219);
+    font-size : 15px;
+    padding : 5px 10px 5px 10px;
+    margin-bottom : 8px;
+}
+.svnit{
+    justify-content : center;
+    width:200px;
+}
+.things {
+    font-size : 13px;
+    color : white;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.middleleft{
+    flex : 0 0 250PX;
+}
+.photocontainer{
+    flex : 1;
+    display : flex;
+    justify-content : flex-start;
+}
+.photocontainer img {
+    margin-top : 10px;
+    width : 1000px; 
+    height: 500px;
+}
+
+.things_in_left {
+    font-family :Verdana,Arial,Tahoma, sans-serif ;
+    font-size : 13px;
+    font-weight: bold;
+    border : 1px solid white;
+    padding : 0px 0px 0px 7px;
+    background-color : rgb(93, 199, 235);
+    color: rgb(10, 10, 10);
+    width : 210px;
+    margin-top : 8px;
+    margin-left : 30px;
+    cursor: pointer;
+}
+.mainmiddle{
+    display:flex;
+    flex-direction :row;
+    justify-content : space-between;
+    align-items: flex-start;
+}
+.middleright{
+    flex : 0 0 250px;
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : flex-start ;
+    position : relative;
+}
+.things_in_right{
+    font-family : Verdana,Arial,Tahoma, sans-serif ;
+    font-size : 13px;
+    font-weight: bold;
+    border : 1px solid white;
+    padding : 0px 0px 0px 0px;
+    background-color : rgb(93, 199, 235);
+    color: rgb(10, 10, 10);
+    width : 210px;
+    margin-top : 8px;
+    margin-left : 30px;
+    cursor: pointer;
+    text-align : center;
+    font-size : 13px;
+    margin-left : 0px;
+}
+.text {
+    font-family :'Times New Roman', Times, serif;
+    margin-left : 777px;
+    color : red;
+}
+.last_photo{
+    margin-left : 14px;
+    width : 80px;
+}
+.last_items{
+    display : flex;
+    flex-direction: row;
+    gap : 20px;
+}

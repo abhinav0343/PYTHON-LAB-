@@ -1,0 +1,347 @@
+body {
+    margin : 0px;
+}
+.logo{
+    width : 106px;
+    border : 1px solid transparent;
+    padding : 5px 3px 5px 3px;
+    transition: border 0.1s ease-in-out;
+    cursor: pointer;
+    margin-left : 7px;
+    margin-top : 8px;
+    margin-bottom : 8px;
+}
+.logo:hover{
+   border : 1px solid rgb(252, 250, 250);
+}
+.amazon_location{
+    width : 20px;
+    margin-top : 9px;
+    height : 20px;
+}
+.top {
+    display : flex;
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(2, 2, 36);
+    gap : 0px;
+}
+.location {
+  display : flex;
+  align-items : center;
+  gap : 0px;
+  border : 1px solid transparent;
+  cursor: pointer;
+  width : max-content;
+  padding: 0px 5px 0px 5px;
+  margin-top : 5px;
+  margin-bottom : 7px;
+}
+.location:hover {
+    border : 1px solid rgb(247, 246, 246);
+}
+.text {
+    display : flex;
+    flex-direction: column;
+    line-height: 1px;
+    font-size : 12px;
+    white-space: nowrap;
+}
+.text p {
+    margin : 5px;
+    padding : 0px;
+    color :white;
+}
+.sign-in {
+    display : flex;
+    flex-direction : column;
+    line-height : 1px;
+    border : 1px solid transparent;
+    transition: border 0.1s ease-in-out;
+    font-size : 12px;
+    white-space : nowrap;
+    padding : 5px 5px 5px 5px;
+    margin-left : 0px;
+    margin-bottom : 5px;
+    margin-top : 5px;
+}
+.sign-in:hover{
+   border : 1px solid rgb(254, 253, 253);
+}
+.sign-in p {
+    margin : 5px;
+    padding : 0px;
+}
+.en {
+    color : white;
+}
+.hi {
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    color : white;
+}
+.acc {
+    color : white;
+}
+.bold {
+    font-weight: bold;
+    color : white;
+}
+.top_butt {
+    margin-left : 13px;
+    margin-top :3px;
+}
+.all_butt {
+    margin-top :4px;
+    padding : 12px 10px 10px 10px ;
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    color : rgb(74, 72, 72);
+    font-size : 10px;
+}
+.search {
+    margin-top : 7px;
+}
+.search input {
+    width : 829px;
+    padding-top : 9px;
+    padding-bottom : 9px;
+    padding-left : 6px;
+    padding-right : 40px;
+    cursor: pointer;
+}
+.search input::placeholder {
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    font-size : bold;
+    color : rgb(70, 69, 69);
+}
+.search-button {
+    background : transparent;
+    border: none;
+    outline: none;
+    margin-left : -33px;
+    cursor: pointer;
+  }
+  
+.search-button img {
+    width : 20px;
+    height: 18px;
+    object-fit: cover;
+}
+.lang {
+    display : flex;
+    align-items: center;
+    cursor: pointer;
+    width : max-content;
+    border : 1px solid transparent;
+    transition : border 0.1s ease-in-out;
+    gap : 5px;
+    margin-left : 0px;
+    margin-bottom : 5px;
+    margin-top : 5px;
+    padding : 5px 3px 5px 3px;
+}
+.en {
+    font-size : 13px;
+}
+.lang:hover {
+    border : 1px solid rgb(249, 248, 248);
+}
+.lang img {
+    width : 20px;
+    margin-left : 10px;
+}
+.return {
+    display : flex;
+    flex-direction : column;
+    line-height : 1px;
+    border : 1px solid transparent;
+    transition: border 0.1s ease-in-out;
+    font-size : 12px;
+    white-space : nowrap;
+    padding : 5px 5px 5px 5px;
+    margin-left : 0px;
+    margin-bottom : 5px;
+    margin-top : 5px;
+}
+.return:hover{
+   border : 1px solid rgb(251, 248, 248);
+}
+.return p {
+    margin : 5px;
+    padding : 0px;
+}
+.order {
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    color : white;
+}
+.amaz {
+    width : 35px;
+    height : 45px;
+}
+.cart p {
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color : white;
+}
+.cart {
+    display : flex;
+    border : 1px solid transparent;
+    transition: border 0.1s ease-in-out;
+    cursor: pointer;
+    padding-right : 6px;
+    padding-left : 3px;
+    padding-top : 0px ;
+    padding-bottom : 0px;
+    margin-left : 4px;
+    margin-bottom : 5px;
+    margin-top : 5px;
+}
+.cart:hover {
+    border : 1px solid rgb(253, 252, 252);
+}
+.second-top {
+    background-color : #37475A;
+    display : flex;
+    flex-direction: row;
+}
+.all {
+    margin-left : 10px;
+    margin-top : 4px;
+    color : rgb(249, 246, 246);
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border : 1px solid transparent;
+    transition: border 0.1s ease-in-out;
+    padding : 8px 5px 8px 5px;
+    width : max-content;
+    margin-bottom : 3px;
+}
+.all:hover {
+    border : 0.1px solid white;
+}
+.seller {
+    margin-top : 7px;
+    color : rgb(249, 246, 246);
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    border : 1px solid transparent;
+    transition: border 0.1s ease-in-out;
+    padding : 5px;
+    width : max-content;
+    margin-bottom : 0px;
+    margin-right : 7px;
+    padding : 8px 5px 10px 5px;
+    font-size : 12px;
+}
+.seller:hover {
+    border : 0.1px solid white;
+}
+.middle {
+    display : flex;
+    flex-direction: row;
+    background-image : url("../images/amazon-main-logo.jpg");
+    width : 1521px;
+    background-size: cover;
+}
+.middle-left {
+    background-color: white;
+    margin-top : 360px;
+    margin-left : 25px;
+    text-align: center;
+    border : 1px solid transparent;
+    transition : border 0.1s ease-in-out;
+    padding-bottom : 0px;
+    cursor: pointer;
+    margin-right : 14px;
+    position : relative;
+}
+.middle-left:hover {
+    border : 1px solid black;
+}
+.mouse {
+    margin-left : 7px;
+    margin-right : 8px;
+    width : 155px;
+    margin-bottom : 8px;
+    padding-bottom : 0px;
+}
+.gaming{
+    margin-top : 19px;
+    margin-left : 7px;
+    font-size : 20px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.middle-mid {
+    background-color: white;
+    margin-top : 360px;
+    text-align: center;
+    border : 1px solid transparent;
+    transition : border 0.1s ease-in-out;
+    padding-bottom : 0px;
+    cursor: pointer;
+    margin-right : 14px;
+}
+.middle-mid:hover {
+    border : 1px solid black;
+}
+.shoping {
+    margin-top : 19px;
+    margin-left : 7px;
+    font-size : 20px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cleaning {
+    margin-left : 7px;
+    margin-right : 8px;
+    width : 165px;
+    margin-bottom : 0px;
+    padding-bottom : 0px;
+}
+.first {
+    display : flex;
+    flex-direction : row;
+}
+.mid-text {
+    margin-top : 0px;
+    margin-bottom : 15px;
+    text-align :start;
+    margin-left : 7px;
+}
+.middle-end {
+    margin-left : 12px;
+    margin-top : 360px;
+    margin-bottom : 15px;
+    border : 1px solid transparent;
+    transition: border 0.1s ease-in-out;
+    width : max-width;
+    background-color: white;
+    padding-top : 3px;
+    padding-left : 10px;
+    padding-bottom : 8px;
+    padding-right : 10px;
+    cursor: pointer;
+}
+.middle-end:hover {
+    border : 1px solid black;
+}
+.sign-butt {
+    padding-top : 3px;
+    padding-bottom : 3px;
+    padding-left : 32px;
+    padding-right : 32px;
+    background-color: yellow;
+    font-weight : bold;
+    margin-left : 50px;
+    border : transparent;
+    cursor: pointer;
+}
+.exper {
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size : 20px;
+}
+.lastone {
+    display : flex;
+    flex-direction : column;
+}
+.vouch {
+    width : 280px;
+    margin-left : 21px;
+    cursor: pointer;
+}
