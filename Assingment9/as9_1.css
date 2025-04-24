@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height : 330px;
+  padding: 20px 50px;
+  background-image: url('../images/zomato-pic.jpg');
+  background-size : cover;
+  background-position : center;  
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.header.content {
+  align-items: center;
+  display : flex;
+  text-align: center;
+  flex-direction: column;
+}
+.logo{
+  margin-bottom : 5px;
+}
+.logo img{
+  top : 20px;
+  width : 400px;
+  height : auto;
+}
+.nav-buttons button {
+  padding: 10px 20px;
+  border: rgb(244, 62, 62);
+  cursor: pointer;
+  font-size: 16px;
+}
+.signin {
+  top : 20px;
+  left : 20px;
+  position : absolute;
+  margin-bottom : 200px;
+  background: rgb(250, 74, 74);
+  color: rgb(252, 249, 249);
+}
+.search {
+  text-align: center;
+  vertical-align: auto;
+  color : white;
+  margin-top:5px;
+}
+.search h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f5f0f0;
+  margin-bottom : 20px;
+}
+.search input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #f2eded;
+  border-radius: 5px;
+  margin-bottom : 10px;
+}
+.get-app {
+  top : 20px;
+  right : 20px;
+  position: absolute;
+  margin-bottom : 200px;
+  background-color: #f34646;
+  color: rgb(246, 239, 239);
+  border-radius:5px;
+  padding : 10px;
+  cursor: pointer;
+}
+.container{
+  display : flex;
+  justify-content: center;
+  gap: 60px;
+}
+.dev{
+  text-align: center;
+}
+.dev img{
+  margin-top: 55px;
+  width : 350px;
+  height: auto;
+  display : block;
+  border-radius: 8px;
+}
